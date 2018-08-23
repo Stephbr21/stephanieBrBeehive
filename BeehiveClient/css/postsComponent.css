@@ -1,0 +1,30 @@
+.postsComponent{
+	/* background-image: url(https://images.pexels.com/photos/984540/pexels-photo-984540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+	background-color: rgb(7, 44, 58);
+	background-position: center;
+	padding: 10px;
+	width: auto;
+	height: auto;
+	font-family: 'Dosis', sans-serif;
+}
+
+.btnNewPost{
+	border: none;
+	background: rgb(255, 255, 255);
+	color: rgb(7, 44, 58);
+	font-weight: bold;
+	padding: 7px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	width: 30%;
+	margin: 19px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.btnNewPost:hover {
+	background: rgba(0,0,0,0);
+	color: rgb(255, 255, 255);
+	box-shadow: inset 0 0 0 3px rgb(255, 255, 255);
+}

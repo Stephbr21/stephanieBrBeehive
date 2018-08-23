@@ -1,0 +1,59 @@
+.postComponent{
+	background-color: rgba(0, 0, 0, 0.8);
+	width: auto;
+	height: auto;
+	margin-bottom: 25px;
+	height: auto;
+	overflow: auto;
+	border-radius: 6px;
+}
+
+.titlePost{
+	width: auto;
+}
+
+.bodyPost{
+	width: auto;
+	color: white;
+	margin: 19px;
+}
+
+.btnComment{
+	border: none;
+	background: rgb(255, 255, 255);
+	color: black;
+	font-weight: bold;
+	padding: 7px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	width: 30%;
+	margin: 0px 20px 10px 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btnComment:hover {
+	background: rgba(0,0,0,0);
+	color: rgb(255, 255, 255);
+	box-shadow: inset 0 0 0 3px rgb(255, 255, 255);
+}
+
+.btnUpadtePost{
+	border: none;
+	background: rgb(255, 255, 255);
+	color: black;
+	font-weight: bold;
+	padding: 7px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	width: 30%;
+	margin: 0px 20px 10px 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btnUpadtePost:hover {
+	background: rgba(0,0,0,0);
+	color: rgb(255, 255, 255);
+	box-shadow: inset 0 0 0 3px rgb(255, 255, 255);
+}

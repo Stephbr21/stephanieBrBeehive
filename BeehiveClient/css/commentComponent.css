@@ -1,0 +1,17 @@
+.commentComponent {
+	width: 80%;
+	margin: 0 auto;
+	height: auto;
+	margin-bottom: 5px;
+	padding: 6px;
+	border-radius: 4px;
+	color: white;
+}
+
+.nameCommentStyle{
+	color: rgb(255, 255, 255);
+	border-bottom: 1px solid white;
+	margin: 0 auto;
+}
+
+

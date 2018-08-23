@@ -1,0 +1,14 @@
+.titleComponent{
+	background-color:black;
+    height: auto;
+    padding: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.beeImg{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}

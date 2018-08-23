@@ -1,0 +1,40 @@
+h3{
+	color: white;
+	margin-left: 20px;
+}
+
+.beesComponent{
+	background-image: url(https://images.pexels.com/photos/1308624/pexels-photo-1308624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-position: right;
+	width: 40%;
+	padding: 20px;
+	height: 535px;
+	overflow: auto;
+	font-family: 'Dosis', sans-serif;
+}
+
+.beesComponent::-webkit-scrollbar{
+	visibility: hidden;
+	width: 25px;
+}
+
+.beesComponent::-webkit-scrollbar-track {
+	background-color: black;
+	background-color: rgb(242, 242, 242, 0.5);
+} /* the new scrollbar will have a flat appearance with the set background color */
+
+.beesComponent::-webkit-scrollbar-thumb {
+	background-image: url(https://static.wixstatic.com/media/866293_4c188001f8be48c48300e5a990af3971~mv2.gif);
+	background-size: 50px;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin: 0 auto;
+} 
+
+.beesComponent::-webkit-scrollbar-button {
+	background-color:gray;
+}
+
+.beesComponent::-webkit-scrollbar-corner {
+	background-color: black;
+} 
